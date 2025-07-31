@@ -26,3 +26,16 @@ else:
 message = "Good" if len(course_name) > 10 else "Bad"
 print(message)
 print("Done")
+"""
+Now we doing for loop and for else loop 
+"""
+# The person sends a message and checks successful or not using for loop
+successful = False
+for number in range(3):
+    print("Attempt")
+    if successful:
+        print("Successfully sending message!👌")
+        break
+else:
+    print(f"I tried {3} times but Not Successfully sending message😢")
+
